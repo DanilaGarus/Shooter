@@ -10,6 +10,9 @@ public class Player_script : MonoBehaviour
     private Vector2 Direction;
     private Vector2 mouseDirection;
 
+    //скрипт игрока, в котором происходит применение обработанного ввода мыши
+    // можно менять чувствительность мыши
+    
     public void OnMove(InputAction.CallbackContext context)
     {
         Direction = context.ReadValue<Vector2>();   

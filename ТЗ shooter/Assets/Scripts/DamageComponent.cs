@@ -7,6 +7,8 @@ namespace somespritesV2
         [SerializeField] private int _damage;
         [SerializeField] private int _Poisiondamage;
 
+        // Компонент который наносит урон. Работает в связке с HealthComponent'ом
+        
         public void ApplyDamage(GameObject target)
         {
             var HealthComponent = target.GetComponent<HealthComponent>();

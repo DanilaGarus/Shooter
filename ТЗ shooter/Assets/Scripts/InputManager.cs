@@ -13,6 +13,8 @@ public class InputManager : MonoBehaviour
     
     private PlayerControls playerControls;
 
+    // просто обработчик Input'a
+    
     private void Awake()
     {
         Cursor.visible = false;

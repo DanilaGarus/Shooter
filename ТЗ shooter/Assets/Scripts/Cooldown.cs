@@ -2,6 +2,8 @@
 
 namespace somespritesV2
 {
+    // Тот самый кулдаун, максимально простой компонент, но очень полезный
+    
     public class Cooldown : MonoBehaviour
     {
         [SerializeField] private float _value;

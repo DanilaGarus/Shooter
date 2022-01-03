@@ -4,6 +4,9 @@ namespace somespritesV2
 {
     public class SpawnComponent : MonoBehaviour
     {
+        
+        // Компонент, который спавнит что-то путём инстанциации префаба
+
         [SerializeField] private Transform[] _target;
         [SerializeField] private GameObject _prefab;
 

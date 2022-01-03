@@ -15,6 +15,10 @@ public class CinemachinePOVExeption : CinemachineExtension
         base.Awake();
     }
 
+    // Использовал Aim в CinemachineCam. Код приведённый ниже заставляет ротейтиться
+    // камеру по Input'у с мыши ( камера ротейтится вверх - вниз, а герой уже
+    // поворачивается влево - вправо
+
     protected override void PostPipelineStageCallback(CinemachineVirtualCameraBase vcam, CinemachineCore.Stage stage, ref CameraState state, float deltaTime)
     {
         if (vcam.Follow)

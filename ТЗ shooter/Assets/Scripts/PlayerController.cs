@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     private InputManager inputManager;
     private Transform cameraTransform;
     
+    // Скрипт, который заставляет двигаться игрока и менять оружие по выбору
+    
     private void Start()
     {
         inputManager = InputManager.Instance;

@@ -13,6 +13,9 @@ public class HealthComponent : MonoBehaviour
     private Coroutine _routine;
     private int dmg;
     
+    // Тот самый HealthComponent. В нём есть методы на все
+    // (или почти все) случаи жизни :)
+    
     public void ApplyDamage(int damageValue)
     {
         _health -= damageValue;

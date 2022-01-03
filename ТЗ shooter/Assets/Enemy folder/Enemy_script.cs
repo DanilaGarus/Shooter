@@ -3,6 +3,10 @@ using UnityEngine.AI;
 
 public class Enemy_script : MonoBehaviour
 {
+   
+   //Простейший "AI" основанный на NavMesh + рандом оружий через switch 
+   //Все оружия поставил в одну точку и просто отключил их, после рандома
+   //одно из оружий включается
    private NavMeshAgent navMeshAgent;
    PlayerController player;
    [SerializeField] private GameObject _gun1;
